@@ -4,11 +4,18 @@
 }
 body{
     width: 1000px;
+   color:white;
+   background-color:darkslategray;
     margin:auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
     font-weight: bold;
+    color:wheat;
+}
+h2{
+    font-weight: bold;
+    color:wheat;
 }
 
 .bev{
