@@ -1,0 +1,16 @@
+.dio 
+{
+    font-size: 17px;
+}
+body{
+    width: 1000px;
+    margin:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+
+.bev{
+    font-size: 21px;
+}
