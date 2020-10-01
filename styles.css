@@ -21,3 +21,13 @@ h2{
 .bev{
     font-size: 21px;
 }
+
+/* QUESTIONNARE */
+#questionnareParagraph{
+    font-size: 21px;
+    border: 3px wheat solid;
+    padding: 10px;
+}
+#questionnare input{
+    margin: 12px;
+}
