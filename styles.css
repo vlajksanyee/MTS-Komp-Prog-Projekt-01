@@ -4,10 +4,6 @@
 }
 body{
    color:white;
-   background-image:url('Hatter.jpg') ;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
    margin:auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -38,4 +34,14 @@ h2{
     width: 1000px;
     margin:auto;
     
+}
+#folap{
+    background-image:url('Hatter.jpg') ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#kviz{
+background-color: darkslategray;
 }
