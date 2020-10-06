@@ -3,10 +3,12 @@
     font-size: 17px;
 }
 body{
-    width: 1000px;
    color:white;
-   background-color:darkslategray;
-    margin:auto;
+   background-image:url('Laosz.jpg') ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin:auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
@@ -30,4 +32,10 @@ h2{
 }
 #questionnare input{
     margin: 12px;
+}
+.szoveg{
+    background-color: rgba(47,79,79,0.8);
+    width: 1000px;
+    margin:auto;
+    
 }
