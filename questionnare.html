@@ -7,12 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laosz - Kérdőív</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="styles.css" rel="stylesheet">
     <script src = "script.js"></script>
 
 </head>
 
 <body id="kviz">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="HTML web.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nevezetesseg.html">Nevezetességek</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="questionnare.html">Kérdőív</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"></a>
+          </li>
+        </ul>
+      </nav>
 
     <form id = "questionnare" name = "questionnare" action = "HTML web.html" onsubmit = "return validateForm()" method = "post">
 
