@@ -45,9 +45,12 @@ h2{
 }
 
 #kviz{
-    background-color: darkslategray;
     width: 1000px;
     margin:auto;
+}
+
+#kvizbody{
+    background-color: darkslategray;
 }
 
 .nevezetesseg

@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body id = "kvizbody">
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
@@ -33,51 +33,51 @@
         </ul>
       </nav>
 
-  <div id = "kviz">
-    <form id = "questionnare" name = "questionnare" action = "HTML web.html" onsubmit = "return validateForm()" method = "post">
+    <div id = "kviz">
+      <form id = "questionnare" name = "questionnare" action = "HTML web.html" onsubmit = "return validateForm()" method = "post">
 
-        <h1>Laosz - Kérdőív</h1>
-        <h2>Kérjük, amennyiben járt már Laoszban és ideje engedi, töltse ki kérdőívünket!</h2>
-        <h2>Ha kitölti kérdőívünket, a csillaggal jelölt részeket semmiképp se hagyja üresen!</h2>
+          <h1>Laosz - Kérdőív</h1>
+          <h2>Kérjük, amennyiben járt már Laoszban és ideje engedi, töltse ki kérdőívünket!</h2>
+          <h2>Ha kitölti kérdőívünket, a csillaggal jelölt részeket semmiképp se hagyja üresen!</h2>
 
-        <p id = "questionnareParagraph">
-            Milyen helyeken szállt meg? *<br />
-            <input type = "checkbox" id = "accomodationHotel" value = "accomodationHotel" name = "accomodation"><label for = "accomodationHotel">Hotel</label> <br />
-            <input type = "checkbox" id = "accomodationMotel" value = "accomodationMotel" name = "accomodation"><label for = "accomodationMotel">Motel</label> <br />
-            <input type = "checkbox" id = "accomodationApartman" value = "accomodationApartman" name = "accomodation"><label for = "accomodationApartman">Apartman</label> <br />
-            <input type = "checkbox" id = "accomodationOther" value = "accomodationOther" name = "accomodation"><label for = "accomodationOther">Egyéb</label>
-        </p>
+          <p id = "questionnareParagraph">
+              Milyen helyeken szállt meg? *<br />
+              <input type = "checkbox" id = "accomodationHotel" value = "accomodationHotel" name = "accomodation"><label for = "accomodationHotel">Hotel</label> <br />
+              <input type = "checkbox" id = "accomodationMotel" value = "accomodationMotel" name = "accomodation"><label for = "accomodationMotel">Motel</label> <br />
+              <input type = "checkbox" id = "accomodationApartman" value = "accomodationApartman" name = "accomodation"><label for = "accomodationApartman">Apartman</label> <br />
+              <input type = "checkbox" id = "accomodationOther" value = "accomodationOther" name = "accomodation"><label for = "accomodationOther">Egyéb</label>
+          </p>
 
-        <p id = "questionnareParagraph">
-            Mennyire volt elégedett a szálláshelyével? *<br />
-            <select name = "satisfaction" id = "satisfaction">
-                <option value = "satisfactionDefault" selected>Válassza ki, mennyire volt elégedett</option>
-                <option value = "satisfactionVeryGood">Nagyon elégedett voltam</option>
-                <option value = "satisfactionGood">Elégedett voltam</option>
-                <option value = "satisfactionAverage">Elment egynek</option>
-                <option value = "satisfactionBad">Elégedetlen voltam</option>
-                <option value = "satisfactionVeryBad">Nagyon elégedetlen voltam</option>
-            </select>
-        </p>
+          <p id = "questionnareParagraph">
+              Mennyire volt elégedett a szálláshelyével? *<br />
+              <select name = "satisfaction" id = "satisfaction">
+                  <option value = "satisfactionDefault" selected>Válassza ki, mennyire volt elégedett</option>
+                  <option value = "satisfactionVeryGood">Nagyon elégedett voltam</option>
+                  <option value = "satisfactionGood">Elégedett voltam</option>
+                  <option value = "satisfactionAverage">Elment egynek</option>
+                  <option value = "satisfactionBad">Elégedetlen voltam</option>
+                  <option value = "satisfactionVeryBad">Nagyon elégedetlen voltam</option>
+              </select>
+          </p>
 
-        <p id = "questionnareParagraph">
-            Visszamenne-e újra? *<br />
-            <input type = "radio" id = "goingBackYes" value = "goingBackYes" name = "goingBack"><label for = "goingBackYes">Igen</label> <br />
-            <input type = "radio" id = "goingBackNo" value = "goingBackNo" name = "goingBack"><label for = "goingBackNo">Nem</label>
-        </p>
+          <p id = "questionnareParagraph">
+              Visszamenne-e újra? *<br />
+              <input type = "radio" id = "goingBackYes" value = "goingBackYes" name = "goingBack"><label for = "goingBackYes">Igen</label> <br />
+              <input type = "radio" id = "goingBackNo" value = "goingBackNo" name = "goingBack"><label for = "goingBackNo">Nem</label>
+          </p>
 
-        <p id = "questionnareParagraph">
-            Ha van bármi megjegyzése, kérjük ossza meg velünk! <br />
-            <textarea id = "comment" name = "comment" rows = "4" cols = "50"></textarea>
-        </p>
+          <p id = "questionnareParagraph">
+              Ha van bármi megjegyzése, kérjük ossza meg velünk! <br />
+              <textarea id = "comment" name = "comment" rows = "4" cols = "50"></textarea>
+          </p>
 
-        <p id = "questionnareSubmitAndReset">
-            <input type = "submit" value = "Űrlap elküldése">
-            <input type = "reset" value = "Űrlap alaphelyzetbe állítása">
-        </p>
+          <p id = "questionnareSubmitAndReset">
+              <input type = "submit" value = "Űrlap elküldése">
+              <input type = "reset" value = "Űrlap alaphelyzetbe állítása">
+          </p>
 
-    </form>
-  </div>
+      </form>
+    </div>
 </body>
 
 </html>
