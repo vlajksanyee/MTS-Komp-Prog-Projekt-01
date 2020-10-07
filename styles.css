@@ -3,8 +3,8 @@
     font-size: 17px;
 }
 body{
-   color:white;
-   margin:auto;
+    color:white;
+    margin:auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
@@ -36,13 +36,14 @@ h2{
     
 }
 #folap{
-    background-image:url('Hatter.jpg') ;
+   background-image:url('Hatter.jpg') ;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 #kviz{
-background-color: darkslategray;
+    background-color: darkslategray;
     width: 1000px;
+    margin:auto;
 }
