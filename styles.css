@@ -49,3 +49,10 @@ h2{
     width: 1000px;
     margin:auto;
 }
+
+.nevezetesseg
+{
+    background-color: darkslategray;
+    text-align: center;
+    color: black;
+}
